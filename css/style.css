@@ -1,0 +1,86 @@
+* {
+    font-family: "Brush Script MT", cursive;
+    /*border: 2px solid red; */
+}
+
+body {
+    background: #528866;
+    margin: 0; 
+    padding: 0; 
+}
+
+.hti-logo{
+    width: 250px;
+    height: 100%; 
+}
+
+.header{
+    font-size: 25px;
+    display: flex;
+    width: 100%; 
+    height: 150px;
+    color: #2a5c3c; 
+    align-items: center;
+    /*background-color: #ABFDC9;*/
+    background-color: white; 
+    padding: 0; 
+    position: sticky;
+    top: 0; 
+    box-shadow: 0 0 10px 0 black;
+}
+
+
+
+.header> * {
+    flex: 1 1 0; 
+    justify-content: center;
+    text-align: center;
+}
+
+.info {
+    width: 1000px;
+    margin: auto; 
+}
+
+.about-text {
+    padding: 50px;
+    font-size: 20px; 
+    color: white; 
+}
+
+.foot-image {
+    width: 100%;
+    height: 100%; 
+    box-shadow: 0 0 10px 0 black;
+ 
+}
+
+li {
+    margin: 30px 0; 
+}
+
+h1 {
+  text-align: center;
+  color: white; 
+  font-weight: normal;
+}
+
+.footer {
+    display: flex; 
+    background-color: white;
+    line-height: 1.6;
+    bottom: 0;  
+}
+
+.footer>*{
+    flex: 1; 
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.footer>* > h2{
+    color: green; 
+    font-weight: bold;
+}
+
