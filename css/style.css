@@ -1,5 +1,5 @@
 * {
-    font-family: "Brush Script MT", cursive;
+    /*font-family: "Brush Script MT", cursive;*/
     /*border: 2px solid red; */
 }
 
@@ -75,7 +75,7 @@ h1 {
 .footer>*{
     flex: 1; 
     text-align: left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
 
 }
 
