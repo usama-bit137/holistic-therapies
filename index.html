@@ -17,7 +17,7 @@
 
         <img src = "img/foot.jpg" class = "foot-image" alt ="">
         
-        <div class = 'info'>
+        <div class = 'about-info'>
         <h1 class = "about-title">Our treatments</h1>
         <div class="about-text">
         Holistic Therapies by Iram we provide a range of complimentary treatments for a variety of health conditions. These treatments are an excellent way to improve your general wellbeing. 
@@ -54,7 +54,12 @@
             </div>
         </div>
 <script>
-    const aboutDiv = document.querySelector('.info'); 
+    const aboutDiv = document.querySelector('.about-click'); // adding the info button div to JS. 
+    const aboutInfo = document.querySelector('.about-info'); // adding the about info div into JS. 
+
+    aboutDiv.addEventListener('click', ()=>{
+        aboutDiv.setAttribute('style', 'text-decoration: underline #528866;')
+    }); 
 
     
     
